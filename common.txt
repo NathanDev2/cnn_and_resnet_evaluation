@@ -1,0 +1,20 @@
+# Packages needed to run facial_recognition_dl.ipynb
+# Tested with Python 3.12.10 on Windows 11 with an NVIDIA RTX 5070 Ti.
+# Install with:  pip install -r common.txt
+# (Colab already has most of these; there you only need: pip install kagglehub)
+
+# PyTorch with GPU support (CUDA 12.8). For CPU only, remove this line.
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0
+torchvision==0.26.0
+
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow
+kagglehub
+
+# Lets VS Code / Jupyter run the notebook with this Python
+ipykernel
