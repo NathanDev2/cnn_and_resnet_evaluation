@@ -1,7 +1,5 @@
 # CNN and ResNet Evaluation: Facial Expression Recognition with Limited Data
 
-COLAB_BADGE_HERE
-
 We compare a plain CNN and a ResNet, both built from scratch in PyTorch, at recognizing 8 facial expressions. We test how much data augmentation helps each model when training data is limited, by training on 10%, 25%, 50% and 100% of the data with augmentation off and on, using SGD and AdamW (32 runs in total).
 
 **Main result:** augmentation helped the ResNet far more than the plain CNN (up to +10.6 points versus up to +3.2). The best model, an augmented ResNet, reached 83.1% test accuracy.
